@@ -2,19 +2,19 @@ import pyrebase
 
 # pyrebase setting
 config = {
-    'apiKey': "AIzaSyANgDGfzUIprlmVjTvY383c_-etqd8ZHIc",
-    'authDomain': "kcuo-e6a26.firebaseapp.com",
-    'databaseURL': "https://kcuo-e6a26.firebaseio.com",
-    'projectId': "kcuo-e6a26",
-    'storageBucket': "kcuo-e6a26.appspot.com",
-    'messagingSenderId': "644548812510"
+    "apiKey": "AIzaSyANgDGfzUIprlmVjTvY383c_-etqd8ZHIc",
+    "authDomai"': "kcuo-e6a26.firebaseapp.com",
+    "databaseURL": "https://kcuo-e6a26.firebaseio.com",
+    "projectId": "kcuo-e6a26",
+    "storageBucket": "kcuo-e6a26.appspot.com",
+    "messagingSenderId": "644548812510"
 }
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 db = firebase.database()
 
-email="oyoons@yoonjjj.pythonanywhere.com"
-password="20180101"
+email="oyoons95@gmail.com"
+password="xiuxiu1926"
 
 user = auth.sign_in_with_email_and_password(email, password)
 
