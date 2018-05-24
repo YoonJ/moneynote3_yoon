@@ -31,7 +31,7 @@ def message(request):
             },
             'keyboard':{
                 'type': 'buttons',
-                'buttons': ['데이터 생성]
+                'buttons': ['데이터 생성']
             }
         })
     else:
@@ -41,6 +41,6 @@ def message(request):
             },
             'keyboard':{
                 'type': 'buttons',
-                'buttons': ['데이터 생성]
+                'buttons': ['데이터 생성']
             }
         })
