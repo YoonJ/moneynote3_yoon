@@ -13,7 +13,7 @@ def keyboard(request):
     return JsonResponse(
         {
         'type': 'buttons',
-        'buttons': ['데이터 생성']
+        'buttons': ['데이터 생성','1']
         }
     )
 
@@ -28,6 +28,16 @@ def message(request):
         return JsonResponse({
             'message':{
                 'text':'데이터 삽입'
+            },
+            'keyboard':{
+                'type': 'buttons',
+                'buttons': ['데이터 생성]
+            }
+        })
+    else:
+        return JsonResponse({
+            'message':{
+                'text':'버튼 누르기'
             },
             'keyboard':{
                 'type': 'buttons',
