@@ -3,7 +3,7 @@ import pyrebase
 # pyrebase setting
 config = {
     "apiKey": "AIzaSyANgDGfzUIprlmVjTvY383c_-etqd8ZHIc",
-    "authDomai": "kcuo-e6a26.firebaseapp.com",
+    "authDomain": "kcuo-e6a26.firebaseapp.com",
     "databaseURL": "https://kcuo-e6a26.firebaseio.com",
     "projectId": "kcuo-e6a26",
     "storageBucket": "kcuo-e6a26.appspot.com",
