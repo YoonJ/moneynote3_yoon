@@ -14,7 +14,7 @@ auth = firebase.auth()
 db = firebase.database()
 
 email="oyoons95@gmail.com"
-password="xiuxiu1926"
+password="!xiuxiu1926"
 
 user = auth.sign_in_with_email_and_password(email, password)
 
