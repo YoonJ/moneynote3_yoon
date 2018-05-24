@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
-from dbconnect import *
+from .dbconnect import *
 
 #temp_data = get_data('김채우오')
 #print(temp_data)
